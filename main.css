@@ -1,12 +1,44 @@
 body{
 	background: black;
 }
+.main{
+	width: 75	%;
+	margin: auto;
+}
+.header{
+	margin: auto;
+	background: url("radiowallp.jpg") no-repeat left fixed;
+	background-size: cover;
+	border-radius: 20px;
+	height: 150px;
+	width: 95%;
+	padding-top: 0px 130px 0px 130px;
+    text-align: center;
+	vertical-align: middle;
+}
 
-
-h1{
-color:black;
-font-size:32px;
-text-align: center;
+.colizq{
+	width: 50px;
+	padding-left: 5px;
+	background-color: rgba(0,100,50,0.5);
+	float: left;
+}
+.subheader{
+	background-color: rgb(10,10,10);
+}
+h1.title{
+	color:black;
+	font-size:30pt;
+	text-shadow: 5px 2px 4px rgb(0,0,100), 2px 1px 30px blue;
+	font
+}
+h1.subtitle{
+	color:black;
+    font-size: 25px;
+	text-decoration: underline;
+		font-family: Blippo, fantasy;
+		font-style: italic;
+		text-shadow: 1px 1px 10px blue;	
 }
 p{
 height: 100%
@@ -17,29 +49,28 @@ width: 100%
 font-size:25px;
 }
 
-h3{
-  color:black;
-  font-size: 25px;
-  background-color: green;
-  text-align: center;
-  
+p1{ 
+	color:white;
+	text-align: justify;
+	width: 100%
+	font-size:25px;
 }
-
 .lista{
-  background-image:url("http://userscontent2.emaze.com/images/0eeb2872-5691-4ec9-bce1-60042b9d5ce9/e4c558e4-9ea3-4f2e-aa15-b59ab1753537image2.jpeg");
-  background-color:;  
-  background-size:147px 101px;
+  background-image:url("radiowallp.jpg");
+  /*background-size:147px 101px;*/
   background-repeat:no-repeat;
   color:red;
-  padding:10px;
 }
 .texto-lista{
-  padding-left: 115px;
-  text-position: top;
-}
+	padding-left: 0px;
+} 
+div.figure{
+	border: 0px solid green;
+}  
+img.image1{
+	border-radius: 5px;
+	margin: auto;
+	
+	}
 
-.imagen{
-	margin: 20px;
-	justify-content: center;
-	position: center;
-}
+
