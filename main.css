@@ -9,10 +9,10 @@ body{
 	margin: auto;
 	background: url("radiowallp.jpg") no-repeat left fixed;
 	background-size: cover;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 	height: 150px;
-	width: 95%;
-	padding-top: 0px 130px 0px 130px;
+	width: 100%;
+	padding: 0px 130px 0px 130px;
     text-align: center;
 	vertical-align: middle;
 }
