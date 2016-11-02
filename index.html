@@ -1,59 +1,68 @@
 ﻿<!DOCTYPE html>
 <html>
 <body>
-  <head>
-    <title>Gonjav Inc.</title>
-    <link rel="stylesheet" type="text/css" href="main.css"/>
-    <meta charset="utf-8"/>
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> --> /* BOOTSTRAP*/
-  </head>
+	<head>
+		<title>Gonza's 1st webpage ^_^</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+						
+  			<!-- BOOTSTRAP -->
+			<link href="css/bootstrap.min.css" rel="stylesheet"> 
+	</head>
+	
+	
 
-<div class=header>	
-	<!-- <h1 class=title>Gonjav Inc.</h1>
-	<h1 class=subtitle>Welcome!</h3> -->
-</div>
+  <!-- <div role="tabpanel">
+ 
+	<ul class="nav nav-tabs" role=tablist">
+		<li role "presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toogle="tab">Home</a></li>
+		<li role "presentation"><a href="#profile" aria-controls="profile" role="tab" data-toogle="tab">Perfil</a></li>
+		<li role "presentation"><a href="#messages" aria-controls="messages" role="tab" data-toogle="tab">Mensajes</a></li>
+		<li role "presentation"><a href="#settings" aria-controls="settings" role="tab" data-toogle="tab">Ajustes</a></li>
+	</ul>
+			
+  <div class="tab-content">
+	<div role="tabpanel" class="tab-pane active" id="home">casacasacasacasa</div>
+	<div role="tabpanel" class="tab-pane" id="profile">perfilperfilperfil</div>
+	<div role="tabpanel" class="tab-pane" id="messages">mensajesmensajesmensajes</div>
+	<div role="tabpanel" class="tab-pane" id="settings">ajustesajustesajustes</div>
+  </div> 
+ </div> -->
 
-<div class="main">
-  
-<!-- <div class="colizq">
-  <p1>Hola, soy la columna de la izquierda</p1>
-  </div> -->
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+  </ul>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Ingeniería Rodríguez</a>
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <!-- <p>Home.</p> -->
+	  <img src="logobhi.png" style="margin:auto" class="img-responsive">
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Menu 1.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Menu 2.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Menu 3.</p>
+    </div>
   </div>
-</nav>
-  
-  
-<div class=subheader>
-  
-</div>
 
 
-<div class="figure">
-	<p><img class="image1" src="sadtrooper.jpg" alt="Sad Stormtrooper" width=50%/></p>
-</div>
-
-<div class="form">
-<form action="accion.php" method="get">
- <p>Nombre <input type="text" name="nombre" /><br></p>
- <p>E-mail: <input type="text" name="email" /><br></p>
- <p><input type="submit" /></p>
-</form>
-</div>
-
-</div>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

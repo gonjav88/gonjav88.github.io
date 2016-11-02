@@ -1,0 +1,154 @@
+body {
+    background-color: #8cc63e;
+    margin-top: 100px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+a,
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#top-navbar {
+    height: 100px;
+}
+
+#top-navbar > .container {
+    margin-top: 25px;
+}
+
+#main-container {
+    padding: 0px;
+}
+
+#main-container > .jumbotron {
+    border-radius: 0;
+}
+
+.jumbotron p {
+    font-size: calc(80% + .5vw);
+}
+
+#logo {
+    height: 50px;
+    float: left;
+    margin: 5px 20px;
+    padding: 0px;
+}
+
+.in,
+.collapsing {
+    /* navbar background color when in mobile view */
+    background-color: rgba(230, 230, 230, .95);
+}
+
+#logo img {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.in .navbar-nav,
+.collapsing .navbar-nav {
+    float: none;
+}
+
+#icon-row {
+    height: 250px;
+}
+
+.icon {
+    opacity: .1;
+    /*opacity is animated on load*/
+    background-color: #8cc63e;
+    color: #fdba12;
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    margin: 25px auto;
+    padding: 0px;
+    border-radius: 100%;
+    transition: background 500ms, transform 500ms;
+    box-shadow: rgba(0, 0, 0, .9) 0px 0px 25px;
+}
+
+.icon i {
+    line-height: 140px
+}
+
+.icon:hover {
+    background-color: rgb(70, 110, 140);
+    transform: scale(1.1, 1.1);
+}
+
+.icon ~ p {
+    transition: transform 500ms, font-size 500ms;
+}
+
+.icon:hover ~ p {
+    transform: translateY(-10px);
+}
+
+.parallax {
+    min-height: calc(10vh + 10vw);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.plx-1 {
+    background-image: url("../assets/bg2.jpg");
+}
+
+.plx-2 {
+    background-image: url("../assets/bg5.png");
+}
+
+.section-title p,
+.section-title h2 {
+    background: rgba(255, 255, 255, .7);
+    padding: 25px 0;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+.section-description {
+    background-color: white;
+    padding: 10px 40px 10px;
+    margin: 20px calc(5% + 2vw);
+    border-radius: 5px;
+}
+
+a.anchor {
+    display: block;
+    visibility: hidden;
+    position: relative;
+    top: -100px;
+}
+
+.fixed-up {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    color: rgb(40, 80, 110);
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, .9) 0px 0px 25px;
+    padding: 0;
+    z-index: 1000;
+}
+
+.fixed-up i {
+    line-height: 80px;
+}
