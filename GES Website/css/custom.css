@@ -69,7 +69,7 @@ a:hover {
     opacity: .1;
     /*opacity is animated on load*/
     background-color: #8cc63e;
-    color: #fdba12;
+    color: rgb(40,40,75);
     width: 140px;
     height: 140px;
     display: inline-block;
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .plx-1 {
-    background-image: url("../assets/bg2.jpg");
+    background-image: url("../assets/bg7.jpg");
 }
 
 .plx-2 {
@@ -122,7 +122,7 @@ a:hover {
 }
 
 .section-description {
-    background-color: white;
+    background-color: rgba(255, 255,  255, .7);
     padding: 10px 40px 10px;
     margin: 20px calc(5% + 2vw);
     border-radius: 5px;
