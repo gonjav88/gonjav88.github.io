@@ -31,12 +31,19 @@ p {
 }
 
 p.p1p1 {
-    
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 0cm;
 }
 
 p.p2p2 {
-    
-
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 0cm;
 }
 
 iframe {
