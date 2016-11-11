@@ -273,10 +273,10 @@ main > section {
 /* ==========================================*/
 
 #logo {
-    height: 60px;
+    height: 80px;
     float: left;
     margin: 5px 20px;
-    padding: 10px;
+    padding: 0px;
 }
 
 #navigation {
@@ -615,6 +615,10 @@ h1.navbar-brand {
 .service-item h3 {
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.row2 {
+    padding-top: 1cm;
 }
 
 /*=================================================================
