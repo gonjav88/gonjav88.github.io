@@ -30,6 +30,22 @@ p {
     line-height: 25px;
 }
 
+p.p1p1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 0cm;
+}
+
+p.p2p2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 0cm;
+}
+
 iframe {
     border: 0;
 }
@@ -273,7 +289,7 @@ main > section {
 /* ==========================================*/
 
 #logo {
-    height: 80px;
+    height: 78px;
     float: left;
     margin: 5px 20px;
     padding: 0px;
@@ -296,10 +312,12 @@ main > section {
 }
 
 h1.navbar-brand {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     margin: 0;
     text-transform: uppercase;
+    padding-top: 0.55cm;
+    
 }
 
 .navbar-inverse .navbar-nav > li > a {
