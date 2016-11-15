@@ -564,6 +564,11 @@ h1.navbar-brand {
     margin-bottom: 70px;
 }
 
+ .recent-works {
+        margin-bottom: 50px;
+        text-align: justify;
+    }
+
 .owl-buttons {
     border: 2px solid #fff;
     display: inline-block;
@@ -591,6 +596,8 @@ h1.navbar-brand {
     font-size: 13px;
     margin-left: 135px;
 }
+
+
 
 /*=================================================================
 	Services
@@ -635,9 +642,7 @@ h1.navbar-brand {
     text-transform: uppercase;
 }
 
-.row2 {
-    padding-top: 1cm;
-}
+
 
 /*=================================================================
 	Portfolio
@@ -1297,6 +1302,7 @@ textarea.form-control {
 /* about */
     .recent-works {
         margin-bottom: 85px;
+        margin-top: 0px;
     }
 
     #about h3 {
