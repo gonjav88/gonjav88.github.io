@@ -34,7 +34,6 @@ p.p1p1 {
     font-size: 25px;
     font-weight: 700;
     margin: 0;
-    text-transform: uppercase;
     padding-top: 0cm;
 }
 
@@ -322,9 +321,9 @@ main > section {
 h1.navbar-brand {
     font-size: 25px;
     font-weight: 700;
-    margin: 0;
-    text-transform: uppercase;
-    padding-top: 0.55cm;
+    margin: 0;    
+    padding-top: 0.70cm;
+    vertical-align: middle;
     
 }
 
@@ -551,7 +550,7 @@ h1.navbar-brand {
 
 #about h3 {
     color: #fff;
-    margin: 0 0 35px;
+    margin: 0 0 15px;
     text-transform: uppercase;
 }
 
@@ -573,20 +572,27 @@ h1.navbar-brand {
 }
 
  .recent-works {
-        margin-bottom: 50px;
-        text-align: left;
+        margin-bottom: 25px;
+        text-align: center;
+        padding: 3px 3px 10px 3px;
+    }
+
+.recent-works-val {
+        margin-bottom: 25px;
+        text-align: center;
+        padding: 3px 3px 10px 3px;
     }
 
 .owl-buttons {
-    border: 2px solid #fff;
+    border: 0px solid #fff;
     display: inline-block;
-    float: right;
-    padding: 1px 8px 5px;
+    
+    padding: 15px 0px 0px 0px;
 }
 
 .owl-buttons > div {
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 20px;
 }
 
 .welcome-message {
@@ -785,6 +791,14 @@ ul.external li a:hover {
     border-bottom: 1px solid #fff;
 }
 
+#testimonials .sec-title img {
+    border: 0px solid #fff;
+    border-radius: 100%;
+    display: inline-block;
+    height: auto;
+    max-width: 100px;
+}
+
 #testimonials .overlay {
     background-color: rgba(15,155,224, 0.78);
     padding: 70px 0 40px;
@@ -792,13 +806,13 @@ ul.external li a:hover {
 
 .testimonial-item {
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 1px;
     width: 64%;
 }
 
 .testimonial-item img {
-    border: 3px solid #fff;
-    border-radius: 50%;
+    border: 0px solid #fff;
+    border-radius: 100%;
     display: inline-block;
     height: auto;
     max-width: 100px;
@@ -850,6 +864,10 @@ ul.external li a:hover {
 #testimonials .owl-prev:hover,
 #testimonials .owl-next:hover {
     color: #fff;
+}
+
+.valor-item {
+    padding: 30px;
 }
 
 .price-table {
@@ -1226,11 +1244,11 @@ textarea.form-control {
 
 /* about */
     .recent-works {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
     .service-item {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
 /* portfolio */
@@ -1316,7 +1334,8 @@ textarea.form-control {
 
 /* about */
     .recent-works {
-        margin-bottom: 85px;
+        font-size: 16px;
+        margin-bottom: 25px;
         margin-top: 0px;
     }
 
@@ -1326,7 +1345,7 @@ textarea.form-control {
     }
 
     #about .owl-buttons {
-        margin-top: 20px;
+        margin-top: 5px;
     }
 
     #about .message-body {
