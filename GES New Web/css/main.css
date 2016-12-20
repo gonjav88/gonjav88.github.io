@@ -271,6 +271,18 @@ a.anchor {
     float:left; 
     margin:0 0 10px 20px;
 }
+
+.aligncenter {
+    float:center;
+    margin: 0 0 10px 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
 /**
 /*	Preloader
 /* ==========================================*/
@@ -1332,15 +1344,15 @@ textarea.form-control {
     }
 
 /* testimonial */
-    .testimonial-item {
-        width: 100%;
-    }
-
-    .testimonial-item {
+    .work-item {
         width: 80%;
     }
 
-    .testimonial-item > div:after {
+    .work-item {
+        width: 80%;
+    }
+
+    .work-item > div:after {
         bottom: -35px;
     }
 
@@ -1360,6 +1372,7 @@ textarea.form-control {
         margin-bottom: 50px;
     }
 }
+
 
 
 /*============================================================
