@@ -223,8 +223,54 @@ main > section {
     padding-left: 0px
     padding-bottom: 10px;
     }
-    
 
+a.anchor {
+    display: block;
+    visibility: hidden;
+    position: relative;
+    top: -100px;
+}
+
+.section-title h2 {
+    background: rgba(255, 255, 255, .5);
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+.parallax {
+    min-height: calc(4vh + 4vw);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+.parallax2 {
+    min-height: calc(2vh + 2vw);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+.section-title h3 {
+    background: rgba(255, 255, 255, .5);
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+
+.alignright {
+    float:right; 
+    margin:0 0 10px 20px;
+}
+
+.alignleft {
+    float:left; 
+    margin:0 0 10px 20px;
+}
 /**
 /*	Preloader
 /* ==========================================*/
@@ -1214,9 +1260,16 @@ textarea.form-control {
 /*=================================================================
 	Servicios
 ==================================================================*/
+.amb-serv {
+    position: relative;
+}
+
+
 .sidebar-nav-fixed {
     width:19%;
 }
+
+
 
 
 /*============================================================ 
@@ -1290,6 +1343,12 @@ textarea.form-control {
     .testimonial-item > div:after {
         bottom: -35px;
     }
+
+/* ambiental */
+    .ambienta {
+        width: 100%;
+    }
+
 
 /* price */
     .price-table {
