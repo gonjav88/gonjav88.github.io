@@ -632,15 +632,15 @@ h1.navbar-brand {
 }
 
  .recent-works {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         text-align: center;
-        padding: 3px 3px 10px 3px;
+        padding: 3px 3px 10px 0px;
     }
 
 .recent-works-val {
         margin-bottom: 25px;
         text-align: center;
-        padding: 3px 3px 10px 3px;
+        padding: 3px 3px 10px 0px;
     }
 
 .owl-buttons {
