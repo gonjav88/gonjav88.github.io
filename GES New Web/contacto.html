@@ -60,7 +60,7 @@
         <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
             <div class="container">
                 <div class="navbar-header">
-                <a href="index.html">
+                <a href="index2.html">
                     <img id="logo" src="img/LogoGES.png" alt="logo">
                 </a>
                     <!-- responsive nav button -->
@@ -83,22 +83,15 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
                         <li><a href="#body">Inicio</a></li>
-                        <li><a href="contacto.html">Quienes Somos</a></li>
+                        <li><a href="contacto.html" class="external">Quienes Somos</a></li>
                         <li class="dropdown">
        						<a class="dropdown-toggle" data-toggle="dropdown" href="#servic">Servicios
     					     <span class="caret"></span></a>
      						   <ul class="dropdown-menu">
-     						   		<li class="dropdown-header">Servicios Ambientales</li>
-        							<li><a href="#ev-imp-amb">Evaluación de Impacto Ambiental</a></li>
-									<li><a href="#audit">Auditoría Ambiental</a></li>
-									<li><a href="#sist-gest-amb">Sistema de Gestión Ambiental</a></li>
-									<li><a href="#ISO">Implementación de ISO</a></li>
-									<li><a href="#habilit">Habilitaciones e Inscripciones</a></li>
-									<li><a href="#capacitacion">Capacitación y formación</a></li>
-									<li><a href="#huella">Huella de Carbono e </br>Inventario Corporativo</a></li>
-									<li><a href="#residuos">Gestión integral de Residuos</a></li>
-
-       						   </ul>
+     						   		<li><a href="eficiencia.html" class="external">Eficiencia Energégica</a></li>
+									<li><a href="energias.html" class="external">Energías Renovables</a></li>
+									<li><a href="ambiental.html#audit" class="external">Servicios Ambientales</a></li>
+								</ul>
     				    </li>
                         <li class="dropdown">
        						<a class="dropdown-toggle" data-toggle="dropdown" href="#portfolio">Productos
@@ -111,7 +104,7 @@
     				    </li>
                         <!-- <li><a href="#testimonials">Testimonial</a></li>
                         <li><a href="#price">price</a></li> -->
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="index2.html#contact" class="external">Contacto</a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -205,92 +198,8 @@
         End Home SliderEnd
         ==================================== -->
 			
-			<!-- about section -->
 			
-				
-			<!-- Social section -->
-			<section id="social" class="parallax">
-				<div class="overlay">
-					<div class="container">
-						<div class="row">
-						
-							<div class="sec-title text-center white wow animated fadeInDown">
-								<h2>Encontranos</h2>
-								<span>En las redes sociales</span>
-							</div>
-							
-							<ul class="social-button">
-								<li class="wow animated zoomIn"><a href="https://www.facebook.com/greentech.bb"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://twitter.com/greentech_bb"><i class="fa fa-twitter fa-2x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.instagram.com/greentech.bb"><i class="fa fa-instagram fa-2x"></i></a></li>							
-							</ul>
-							
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- end Social section -->
 			
-			<!-- Contact section -->
-			<section id="contact" >
-				<div class="container">
-					<div class="row">
-						
-						<div class="sec-title text-center wow animated fadeInDown">
-							<h2>Contacto</h2>
-							<p>Dejanos tu mensaje</p>
-						</div>
-						
-						
-						<div class="col-md-7 contact-form wow animated fadeInLeft">
-							<form action="#" method="post">
-								<div class="input-field">
-									<input type="text" name="name" class="form-control" placeholder="Tu Nombre...">
-									<?php echo "<p class='text-danger'>$errName</p>";?>
-								</div>
-								<div class="input-field">
-									<input type="email" name="email" class="form-control" placeholder="Tu Email...">
-									<?php echo "<p class='text-danger'>$errEmail</p>";?>
-								</div>
-								<div class="input-field">
-									<input type="text" name="subject" class="form-control" placeholder="Asunto...">
-									<?php echo "<p class='text-danger'>$errSubject</p>";?>
-								</div>
-								<div class="input-field">
-									<textarea name="message" class="form-control" placeholder="Mensaje..."></textarea>
-									<?php echo "<p class='text-danger'>$errMessage</p>";?>
-								</div>
-								<div class="form-group">
-									<input type="text" name="human" class="form-control" placeholder="Si sos humano, cuánto es 2 + 3 ?">
-									<?php echo "<p class='text-danger'>$errHuman</p>";?>
-    							</div>
-								<div style="height: 15px"></div>
-						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
-						       	<div class="form-group">
-									<div class="col-sm-10 col-sm-offset-2">
-										<?php echo $contact; ?>	
-									</div>
-								</div>
-							</form>
-						</div>
-						
-						<div class="col-md-5 wow animated fadeInRight">
-							<address class="contact-details">
-								<h3>Contactanos</h3>						
-								<p><i class="fa fa-pencil"></i>GreenTech<span>C.P. 8000</span> <span>Bahía Blanca, Buenos Aires </span><span>Argentina</span></p><br>
-								<p><i class="fa fa-phone"></i>Tel: (+54) 9291 402 7811 </p>
-								<p><i class="fa fa-envelope"></i>gonjavrod@gmail.com</p>
-							</address>
-						</div>
-			
-					</div>
-				</div>
-			</section>
-			<!-- end Contact section -->
-			
-			<section id="google-map">
-				<div id="map-canvas" class="wow animated fadeInUp"></div>
-			</section>
 		
 		</main>
 		
