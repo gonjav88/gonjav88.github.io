@@ -1,0 +1,46 @@
+<div id="myCarousel" class="carousel slide " data-ride="carousel" role="listbox">
+                            <!-- Indicators -->
+                            <ul class="list-group col-md-3 carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ul>
+                            
+                        <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="img/carrousel/solar-fv.jpg" alt="Solar FV">
+                                    <div class="carousel-caption">
+                                        <h3 style="color:#fff">Solar Fotovoltaica</h3>
+                                        <p></p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/carrousel/sts.jpg" alt="Solar Térm.">
+                                    <div class="carousel-caption">
+                                        <h3 style="color:#fff">Térmica Solar</h3>
+                                        <p></p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/carrousel/geoterm.jpg" alt="Geotérmica">
+                                    <div class="carousel-caption">
+                                        <h3 style="color:#fff">Geotérmica</h3>
+                                        <p></p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="img/carrousel/eolica.jpg" alt="Minieólica">
+                                    <div class="carousel-caption">
+                                        <h3 style="color:#fff">Minieólica</h3>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div> <!-- inner carrousel -->
+                            
+                            
+                        </div>  <!-- carrousel -->
