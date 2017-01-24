@@ -1387,6 +1387,11 @@ textarea.form-control {
     .caption-content strong {
         font-size: 45px;
     }
+    
+   
+#icon-row {
+    height: 170px;    
+    }
 
 /* about */
     .recent-works {
@@ -1456,6 +1461,10 @@ textarea.form-control {
         left: 30%;
     }
 
+#icon-row {
+    height: 170px;    
+    }
+    
 /*navigation*/
     .navbar-inverse .navbar-toggle {
         border-color: #fff;
