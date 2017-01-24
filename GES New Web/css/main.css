@@ -620,10 +620,38 @@ h1.navbar-brand {
 }
 
 .serv-ppal {
-    padding-top: 90px;
+    padding-top: 100px;
 }
 
+#icon-row {
+    padding-bottom: 10px;
+    height: 120px;
+}
 
+.item-servicio {
+    transition: background 700ms, transform 700ms;
+    display: inline-block;   
+}
+
+.item-servicio:hover {
+    transform: scale(1.04, 1.04);        
+}
+
+.item-servicio h3 {
+    transition: transform 1000ms, font-size 1000ms;
+}
+
+.item-servicio:hover h3 {
+    transform: scale(1.15, 1.15);
+}
+
+.item-servicio  p {    
+    transition: transform 1000ms, font-size 1000ms;
+}
+
+.item-servicio:hover p {    
+    transform: translateY(-5px);
+}
 
 
 
@@ -719,9 +747,7 @@ h1.navbar-brand {
     
 }
 
-#icon-row {
-    height: 250px;
-}
+
 
 .icon-servicio {
     border: 3px solid transparent;
