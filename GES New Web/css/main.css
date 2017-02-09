@@ -356,11 +356,21 @@ img {
 /*	Header
 /* ==========================================*/
 
+.navbar-header {
+    border-radius: 1px;
+}
+
 #logo {
     height: 78px;
     float: left;
     margin: 5px 20px;
     padding: 0px;
+    border-radius: 0px;
+    transition: background 700ms, transform 700ms;
+}
+
+#logo:hover {
+    transform: scale(1.15, 1.15);
 }
 
 #navigation {
