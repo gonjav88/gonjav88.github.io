@@ -19,6 +19,7 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+    background-attachment: fixed;
 	height: 100%;
 	width: 100%;
 }
@@ -173,6 +174,9 @@
 	background-image: url(../img/slider/bg6.jpg);
 }
 
+.bg-img-7 {
+	background-image: url(../img/slider/bg7.jpg);
+}
 
 /* Animations for content elements */
 

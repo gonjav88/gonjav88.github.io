@@ -432,7 +432,7 @@ h1.navbar-brand {
     background-color: rgba(255, 255, 255, 0.67);
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(../img/slider/bg5.jpg);
+    /*background-image: url(../img/slider/bg5.jpg);*/
     background-blend-mode: soft-light;         
 }
 
@@ -714,6 +714,10 @@ h1.navbar-brand {
     text-transform: uppercase;
 }
 
+#about h1 {
+    text-transform: uppercase;
+}
+
 #about .welcome-block h3 {
     margin: 0 0 65px;
 }
@@ -729,6 +733,21 @@ h1.navbar-brand {
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 70px;
+}
+
+.aboutext {
+    text-align: center;
+    text-indent: 10px;
+}
+
+.aboutext p {
+    font-size: 16px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    text-align: justify;
+}
+
+.val-item {
+    padding: 30px;
 }
 
  .recent-works {
@@ -770,6 +789,7 @@ h1.navbar-brand {
     font-size: 13px;
     margin-left: 135px;
 }
+
 
 
 
@@ -1127,11 +1147,11 @@ ul.external li a:hover {
 
 
 /*=================================================================
-	Price
+	Social
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/parallax/par-1.jpg);
     padding: 0;
 }
 
@@ -1149,6 +1169,7 @@ ul.external li a:hover {
 
 .social-button li {
     display: inline-block;
+    padding-top: 20px;
 }
 
 .social-button li:nth-child(2) {

@@ -1,41 +1,83 @@
 <?php
-    if (isset($_POST["submit"])) {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
-        $human = intval($_POST['human']);
-        $from = 'Demo Contact Form'; 
-        $to = 'gonjavrod@gmail.com'; 
-        $subject = 'Message from Contact Demo ';
-        
-        $body = "From: $name\n E-Mail: $email\n Message:\n $message";
- 
-        // Check if name has been entered
-        if (!$_POST['name']) {
-            $errName = 'Por favor ingrese su nombre';
-        }
-        
-        // Check if email has been entered and is valid
-        if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-            $errEmail = 'Por favor ingrese una dirección de correo válida';
-        }
-        
-        //Check if message has been entered
-        if (!$_POST['message']) {
-            $errMessage = 'Por favor ingrese su mensaje';
-        }
-        //Check if simple anti-bot test is correct
-        if ($human !== 5) {
-            $errHuman = 'La comprobación de humano es incorrecta';
-        }
- 
-// If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-    if (mail ($to, $subject, $body, $from)) {
-        $result='<div class="alert alert-success">Muchas gracias por escribirnos. En breve un representante se pondrá en contacto con usted.</div>';
-    } else {
-        $result='<div class="alert alert-danger">Lo sentimos. Ha habido un error al enviar su mensaje. Por favor intente nuevamente más tarde. Gracias.</div>';
+if(isset($_POST['email'])) {
+     
+    // CHANGE THE TWO LINES BELOW
+    $email_to = "consultas@greentech.com.ar";
+     
+    $email_subject = "website html form submissions";
+     
+     
+    function died($error) {
+        // your error code can go here
+        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        echo "These errors appear below.<br /><br />";
+        echo $error."<br /><br />";
+        echo "Please go back and fix these errors.<br /><br />";
+        die();
     }
-}
+     
+    // validation expected data exists
+    if(!isset($_POST['name']) ||
+        !isset($_POST['email']) ||
+        !isset($_POST['subject']) ||
+        !isset($_POST['message'])) {
+        died('We are sorry, but there appears to be a problem with the form you submitted.');       
+    }
+     
+    $first_name = $_POST['name']; // required
     
+    $email_from = $_POST['email']; // required
+    $subject = $_POST['subject']; // not required
+    $comments = $_POST['message']; // required
+     
+    $error_message = "";
+    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+  if(!preg_match($email_exp,$email_from)) {
+    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+  }
+    $string_exp = "/^[A-Za-z .'-]+$/";
+  if(!preg_match($string_exp,$first_name)) {
+    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
+  }
+  
+  if(strlen($comments) < 2) {
+    $error_message .= 'The message you entered do not appear to be valid.<br />';
+  }
+  if(strlen($error_message) > 0) {
+    died($error_message);
+  }
+    $email_message = "Form details below.\n\n";
+     
+    function clean_string($string) {
+      $bad = array("content-type","bcc:","to:","cc:","href");
+      return str_replace($bad,"",$string);
+    }
+     
+    $email_message .= "Name: ".clean_string($first_name)."\n";
+    
+    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "Telephone: ".clean_string($subject)."\n";
+    $email_message .= "Comments: ".clean_string($comments)."\n";
+     
+     
+// create email headers
+$headers = 'From: '.$email_from."\r\n".
+'Reply-To: '.$email_from."\r\n" .
+'X-Mailer: PHP/' . phpversion();
+@mail($email_to, $email_subject, $email_message, $headers);  
+?>
+ 
+<!-- place your own success html below -->
+<html>
+<p>Gracias por contactarnos! Por el momento el sistema de consultas se encuentra en mantenimiento</br>
+por favor enviar un correo electrónico con su consulta a contacto@greentech.com.ar </p>
+<p>Muchas gracias y discule la molestia.</p>
+<a href="index.html">Volver</a>
+
+</html>
+
+ 
+<?php
+}
+die();
 ?>
