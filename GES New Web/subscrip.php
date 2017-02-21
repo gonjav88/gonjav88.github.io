@@ -4,6 +4,7 @@
 
 # LIST EMAIL ADDRESS
 $recipient = "contacto@greentech.com.ar";
+$recipient2 = "suscrip@greentech.com.ar";
 
 # SUBJECT (Subscribe/Remove)
 $subject = "Subscription";
@@ -15,7 +16,7 @@ $location = "http://www.greentech.com.ar";
 
 # SENDER - WE ALSO USE THE RECIPIENT AS SENDER IN THIS SAMPLE
 # DON'T INCLUDE UNFILTERED USER INPUT IN THE MAIL HEADER!
-$sender = ".$_REQUEST['Email']."
+$sender = $recipient2;
 
 # MAIL BODY
 # $body .= "Name: ".$_REQUEST['Name']." \n";
