@@ -396,7 +396,7 @@ hr {
 }
 
 #navigation.animated-header {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 h1.navbar-brand {
@@ -438,10 +438,12 @@ h1.navbar-brand {
 
 .parallax-vid {
     position: inherit;
-    padding-top: 60px;    
+    padding-top: 0px;
+    height: 475px;
 }
 
 .el-video {
+    padding-top: 100px;
      
 }
 
