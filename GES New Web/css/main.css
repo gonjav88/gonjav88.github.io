@@ -805,9 +805,7 @@ h1.navbar-brand {
     background-attachment: fixed;
     background-image: url(../img/bg/sierra.jpg);
     background-blend-mode: soft-light;
-    
 }
-
 
 
 .icon-servicio {
@@ -832,6 +830,10 @@ h1.navbar-brand {
             transition: all 0.3s ease 0s;
 }
 
+.icon-servicio {
+    color: rgb(0,190,50);
+}
+
 .icon-servicio:hover {
     transform: scale(1.2, 1.2);
 }
@@ -850,6 +852,10 @@ h1.navbar-brand {
 .item-servicio h3 {
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.item-servicio p {
+    color: #595959;
 }
 
 

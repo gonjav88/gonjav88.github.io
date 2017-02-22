@@ -84,7 +84,7 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="#body">Inicio</a></li>
+                        <li><a href="index.html" class="external">Inicio</a></li>
                         <li><a href="contacto.html" class="external">Quienes Somos</a></li>
                         <li class="dropdown">
        						<a class="dropdown-toggle" data-toggle="dropdown" href="#servic">Servicios
@@ -186,7 +186,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" style="margin:auto">
 							<div class="item-servicio">
 								<div class="icon-servicio">
-									<i class="fa fa-bolt fa-3x"></i>
+									<img src="img/mini/relevamiento.png">
 								</div>
 								<h3>Relevamiento</h3>
 								<p>Se realiza una inspección en campo y toma de datos sobre los equipos que consumen energía, aislaciones, sistemas térmicos y aspectos operativos de interés.</p>
@@ -196,7 +196,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn " data-wow-delay="0.3s" style="margin:auto">
 							<div class="item-servicio">
 								<div class="icon-servicio">
-									<i class="fa fa-sun-o fa-3x"></i>
+									<img src="img/mini/analisis.png">
 								</div>
 								<h3>Análisis</h3>
 								<p>Se procesa la información estableciendo un estado actual de la situación energética del establecimiento. Esto permite encontrar oportunidades de mejora.</p>
@@ -205,7 +205,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn " data-wow-delay="0.3s" style="margin:auto">
 							<div class="item-servicio">
 								<div class="icon-servicio">
-									<i class="fa fa-sun-o fa-3x"></i>
+									<img src="img/mini/diagnostico.png">
 								</div>
 								<h3>Diagnóstico</h3>
 								<p>Se realiza un informé técnico sobre la situación actual de todos los consumos energéticos. Se realiza una comparación con alternativas más limpias y eficientes para comprender el estado.</p>
@@ -214,7 +214,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn " data-wow-delay="0.3s" style="margin:auto">
 							<div class="item-servicio">
 								<div class="icon-servicio">
-									<i class="fa fa-sun-o fa-3x"></i>
+									<img src="img/mini/plan.png">
 								</div>
 								<h3>Plan de Mitigación</h3>
 								<p>Se realiza un plan secuencial de mejoras a implementar a fin de volver al establecimiento o proceso más eficiente. Las propuestas son presentadas en orden de impacto y retorno económico, priorizando las de más rápido retorno.</p>
@@ -285,13 +285,15 @@
 							<p>Inscripción a difusión</p>
 							<p>Al igual que vos, tambien odiamos el spam, así que solamente vas a recibir cosas interesantes.</p>
 						</div>
-						<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+						<form method="POST" action="/php/subscrip.php" class="subscribe-form wow animated fadeInUp">
 							<div class="input-field">
-								<input type="email" class="subscribe form-control" placeholder="Ingresa tu mail...">
-								<button type="submit" class="submit-icon">
+                                <input type="text" name="Name" class="subscribe form-control" placeholder="Nombre y Apellido...">
+                                <input type="email" name="Email" class="subscribe form-control" placeholder="Ingresa tu mail...">
+								<button type="submit" value="submit" name="submit" class="submit-icon">
 									<i class="fa fa-paper-plane fa-lg"></i>
 								</button>
 							</div>
+                                
 						</form>
 						<!--<div class="footer-social">
 							<ul>
