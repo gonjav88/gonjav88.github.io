@@ -270,7 +270,7 @@ a.anchor {
 
 .alignleft {
     float:left; 
-    margin:0 0 10px 20px;
+    margin:0 20px 10px 0px;
 }
 
 .aligncenter {
@@ -840,9 +840,9 @@ h1.navbar-brand {
 
 
 .item-servicio:hover .icon-servicio {
-    border: 0.5px solid #009ee3;
-    margin-bottom: 10px;
-    color: #009ee3;    
+    
+    margin-bottom: 0px;
+        
 }
 
 .item-servicio{

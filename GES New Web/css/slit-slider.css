@@ -178,6 +178,10 @@
 	background-image: url(../img/slider/bg7.jpg);
 }
 
+.bg-img-8 {
+	background-image: url(../img/bg/working.jpg);
+}
+
 /* Animations for content elements */
 
 .sl-trans-elems .caption-content h2 {
