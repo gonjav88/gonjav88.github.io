@@ -66,11 +66,11 @@
             <div class="container">
                 <div class="navbar-header">
                 <a href="index.html">     
-                    <img id="logo" src="img/LogoGES.png" alt="logo" class="hidden-xs visible-sm visible-md visible-lg">
-                    <img id="logo" src="img/Logo.png" alt="logo" class="visible-xs hidden-sm hidden-md hidden-lg">
+                    <img id="logo" src="img/LogoGES.png" alt="logo" class="hidden-xs hidden-sm visible-md visible-lg">
+                    <img id="logo" src="img/Logo.png" alt="logo" class="visible-xs visible-sm hidden-md hidden-lg">
                 </a>
                     <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style:"color=black">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -86,7 +86,7 @@
                 </div>
 
 				<!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                <nav class="collapse navbar-collapse navbar-right nav-titles" role="navigation" id="nav-titles">
                     <ul id="nav" class="nav navbar-nav">
                         <li><a href="index.html" class="external">Inicio</a></li>
                         <li><a href="contacto.html" class="external">Quienes Somos</a></li>
@@ -131,17 +131,24 @@
         ==================================== -->
 		
 		<section id="home-slider">
+			<div class="main-title">
+				
+					<h2 class="text-center">Energía renovable y eficiencia energética</h2>			
+			   
+			</div>
+			
+			
             <div id="slider" class="sl-slider-wrapper">
 
 				<div class="sl-slider">
 				
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="0" data-slice2-rotation="0" data-slice1-scale="1" data-slice2-scale="1">
 
 						<div class="bg-img bg-img-1"></div>  <!-- ver en slit-slider.css -->
 
 						<div class="slide-caption">
                             <div class="caption-content">
-                                <h2 class="animated bounceInLeft">Eficiencia Energética</h2>
+                                <!-- <h2 class="animated bounceInLeft">Eficiencia Energética</h2> -->
                                 <span class="animated fadeInDown">Generamos ahorro relizando una estado de situación actual y focalizando puntos de mejora</span>
                                 <!-- <a href="#" class="btn btn-blue btn-effect">Join US</a> -->
                             </div>
@@ -149,12 +156,12 @@
 						
 					</div>
 					
-					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="0" data-slice2-rotation="0" data-slice1-scale="1" data-slice2-scale="1">
 					
 						<div class="bg-img bg-img-2"></div>
 						<div class="slide-caption">
                             <div class="caption-content">
-                                <h2>Energías Renovables</h2>
+                                <!-- <h2>Energías Renovables</h2> -->
                                 <span>Asesoramos y estudiamos cada caso en particular para hallar la solución más adecuada</span>
                                 <!-- <a href="#" class="btn btn-blue btn-effect">Join US</a> -->
                             </div>
@@ -162,12 +169,12 @@
 						
 					</div>
 					
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="0" data-slice2-rotation="0" data-slice1-scale="1" data-slice2-scale="1">
 						
 						<div class="bg-img bg-img-3"></div>
 						<div class="slide-caption">
                             <div class="caption-content">
-                                <h2>Generamos ahorro</h2>
+                                <!-- <h2>Generamos ahorro</h2> -->
                                 <span>Nuestros servicios, propuestas y soluciones llevan a generar un ahorro</br>derivado del consumo energético</span>
                                 <!-- <a href="#" class="btn btn-blue btn-effect">Join US</a> -->
                             </div>
@@ -184,7 +191,7 @@
                 </nav> -->
                
                 
-                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm hidden-md hidden-lg">
                     <a href="javascript:;" class="sl-prev">
                         <i class="fa fa-angle-left fa-3x"></i>
                     </a>
@@ -194,7 +201,7 @@
                 </nav>
                 
 
-				<nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
+				<nav id="nav-dots" class="nav-dots visible-xs visible-sm visible-md visible-lg">
 					<span class="nav-dot-current"></span>
 					<span></span>
 					<span></span>

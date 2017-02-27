@@ -74,7 +74,7 @@
 		// amount (%) to translate both slices - adjust as necessary
 		translateFactor : 230,
 		// maximum possible angle
-		maxAngle : 25,
+		maxAngle : 0,
 		// maximum possible scale
 		maxScale : 2,
 		// slideshow on / off
@@ -82,7 +82,7 @@
 		// keyboard navigation
 		keyboard : true,
 		// time between transitions
-		interval : 4000,
+		interval : 8000,
 		// callbacks
 		onBeforeChange : function( slide, idx ) { return false; },
 		onAfterChange : function( slide, idx ) { return false; }

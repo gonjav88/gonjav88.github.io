@@ -370,10 +370,12 @@ hr {
     border-radius: 1px;
 }
 
+
+
 #logo {
-    height: 78px;
+    width: 200px;
     float: left;
-    margin: 5px 20px;
+    margin: 0px;
     padding: 0px;
     border-radius: 0px;
     transition: background 700ms, transform 700ms;
@@ -390,7 +392,7 @@ hr {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,1);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
 }
@@ -398,6 +400,8 @@ hr {
 #navigation.animated-header {
     padding: 10px 0;
 }
+
+
 
 h1.navbar-brand {
     font-size: 25px;
@@ -409,11 +413,20 @@ h1.navbar-brand {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
+    color: rgb(0,0,0);
+	text-shadow: .25px .25px .5px white;
     font-size: 15px;
-    text-transform: uppercase;
+    text-transform: uppercase;	
 }
 
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: rgba(0,0,0,.5);
+}
+
+.dropdown-menu {
+	background-color: white;
+		
+}
 
 /*=================================================================
 	Home Slider
@@ -424,6 +437,25 @@ h1.navbar-brand {
     position: relative;
     padding: 0;
     font-family: 'Lato', sans-serif;
+}
+
+#home-slider .main-title {
+	position:absolute;
+	background-color: trasparent;
+	z-index: 5;
+	padding-left: 160px;
+	padding-top:60px;
+}
+
+
+#home-slider .main-title h2 {
+	color: #fff;
+    font-size: 45px;
+    font-weight: 400;	
+    text-transform: uppercase;
+	text-shadow: 1px 1px 5px black;
+	position: center; 
+	text-align: center;	
 }
 
 #vid-slider {
@@ -500,12 +532,14 @@ h1.navbar-brand {
     font-weight: 400;
     margin-bottom: 25px;
     text-transform: uppercase;
+	text-shadow: 1px 1px 5px black;
 }
 
 .caption-content > span {
-    display: block;
-    font-size: 24px;
+    display: inline;
+    font-size: 30px;
     margin-bottom: 45px;
+	text-shadow: 0.5px 0.5px 5px black;
     
 }
 
@@ -1440,6 +1474,37 @@ textarea.form-control {
 
 @media (min-width: 980px) and (max-width: 1150px) {
 
+/*logo */
+	#logo {
+    width: 175px;
+}
+
+/*slider*/	
+	
+#home-slider .main-title {
+	position:absolute;
+	background-color: trasparent;
+	z-index: 5;
+	padding-left: 160px;
+	padding-top:60px;
+}
+
+
+#home-slider .main-title h2 {
+	color: #fff;
+    font-size: 40px;
+    font-weight: 400;	
+    text-transform: uppercase;
+	text-shadow: 1px 1px 5px black;
+	position: center; 
+	text-align: center;	
+}	
+	
+
+#nav-titles {
+	float: right;
+	}
+	
 /*about*/
     #about .welcome-block img {
         margin-bottom: 30px;
@@ -1462,7 +1527,40 @@ textarea.form-control {
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+/*logo */
+	#logo {
+    width: 75px;
+}		
+
+#nav-titles {
+	padding-top: 15px;
+	}
+
+	
 /* home slider  */
+	/*slider*/	
+	
+#home-slider .main-title {
+	position:absolute;
+	background-color: trasparent;
+	z-index: 5;
+	padding-left: 100px;
+	padding-top:80px;
+}
+
+
+#home-slider .main-title h2 {
+	color: #fff;
+    font-size: 34px;
+    font-weight: 400;	
+    text-transform: uppercase;
+	text-shadow: 1px 1px 5px black;
+	position: center; 
+	text-align: center;	
+}	
+	
+	
+	
     .caption-content h2 {
         font-size: 40px;
     }
@@ -1547,19 +1645,46 @@ textarea.form-control {
     .sec-title h2:after {
         left: 30%;
     }
-
+/*logo */
+#logo {
+    width: 75px;
+	margin: 5px 40px;
+}	
+	
 #icon-row {
     height: 170px;    
     }
+
+/*slider*/	
+	
+#home-slider .main-title {
+	position:absolute;
+	background-color: trasparent;
+	z-index: 5;
+	padding-left: 25px;
+	padding-top:90px;
+}
+
+
+#home-slider .main-title h2 {
+	color: #fff;
+    font-size: 22px;
+    font-weight: 400;	
+    text-transform: uppercase;
+	text-shadow: 1px 1px 5px black;
+	position: center; 
+	text-align: center;	
+}		
     
 /*navigation*/
     .navbar-inverse .navbar-toggle {
-        border-color: #fff;
+        border-color: rgb(0,0,0);
+		
     }
 
     .navbar-inverse .navbar-toggle:hover,
     .navbar-inverse .navbar-toggle:focus {
-        background-color: transparent;
+        background-color: black;
     }
 
 /* slider */
@@ -1568,8 +1693,9 @@ textarea.form-control {
     }
 
     .caption-content > span {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 20px;
+		padding: 30px;
     }
 
     .caption-content p {
@@ -1700,6 +1826,25 @@ textarea.form-control {
     .caption-content strong {
         font-size: 35px;
     }
+
+	#home-slider .main-title {
+	position:absolute;
+	background-color: trasparent;
+	z-index: 5;
+	padding-left: 50px;
+	padding-top:90px;
+}
+
+
+#home-slider .main-title h2 {
+	color: #fff;
+    font-size: 20px;
+    font-weight: 400;	
+    text-transform: uppercase;
+	text-shadow: 1px 1px 5px black;
+	position: center; 
+	text-align: center;	
+}		
 
 /*about*/
 
