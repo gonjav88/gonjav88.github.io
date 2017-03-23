@@ -3,12 +3,12 @@
 ## CONFIG ##
 
 # LIST EMAIL ADDRESS
-$recipient = "contacto@greentech.com.ar";
+$recipient = "info@greentech.com.ar";
 #$recipient2 = $_REQUEST['email'];
 
 
 # SUBJECT (Subscribe/Remove)
-$subject = "website html form submissions";
+$subject = "Mail de Consulta de WebPage";
 #$subject2 = "Consulta recibida"
 
 # RESULT PAGE
@@ -23,8 +23,8 @@ $sender = $recipient;
 # MAIL BODY
 $body .= "Name: ".$_REQUEST['name']." \n";
 $body .= "Email: ".$_REQUEST['email']." \n";
-$body .= "Subject: ".$REQUEST['subject']." \n";
-$body .= "Message: ".$REQUEST['message']." \n";
+$body .= "Email: ".$_REQUEST['subject']." \n";
+$body .= "Email: ".$_REQUEST['message']." \n";
 
 # add more fields here if required
 #$body2 .= "Gracias por ponerse en contacto con nosotros, en breve estaremos respondiendo su consulta. \n";
