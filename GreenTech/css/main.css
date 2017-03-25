@@ -716,10 +716,6 @@ h1.navbar-brand {
 	padding-bottom: 10px;
 }
 
-
-
-	
-
 #servicio-ppal hr {
 	height: 1px;
     border: 0;
@@ -787,10 +783,6 @@ h1.navbar-brand {
 	color: #e82c2c;
 }
 
-/* #el-como a:hover {
-		text-shadow: 1px 1px 1px white;
-} */
-
 .como-icon {
 	display: inline-block;    
     line-height: 100%;
@@ -800,6 +792,8 @@ h1.navbar-brand {
 	position: center;
 }
 
+
+
 .como-icon img {
 	display: block;
 	margin-left: auto;
@@ -808,9 +802,22 @@ h1.navbar-brand {
 	margin: 10px auto;
 }
 
+.como-item {
+	transition: transform 700ms;
+}
+
+.como-item:hover {
+	transform: scale(1.15, 1.15);
+}
+
 .como-item p {
     color: #595959;
 	text-align: center;
+	transition: transform 1000ms, font-size 1000ms;
+}
+
+.como-item:hover p {
+	transform: translateY(0px);
 }
 
 
