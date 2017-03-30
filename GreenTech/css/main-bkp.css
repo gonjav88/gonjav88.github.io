@@ -16,7 +16,7 @@
 
 body {
     background-color: #fff;
-    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -436,11 +436,7 @@ h1.navbar-brand {
 #home-slider {
     position: relative;
     padding: 0;
-    font-family: "Work Sans", sans-serif;
-}
-
-#home-slider .bg-img {
-	background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
 }
 
 #home-slider .container {
@@ -452,7 +448,6 @@ h1.navbar-brand {
 	background-color: trasparent;
 	z-index: 5;
 	padding-top:60px;
-	
 }
 
 
@@ -467,7 +462,7 @@ h1.navbar-brand {
 
 #vid-slider {
     position: relative;    
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     background-color: rgba(255, 255, 255, 0.67);
     background-size: cover;
     background-attachment: fixed;
@@ -532,8 +527,8 @@ h1.navbar-brand {
 	padding-top: 20px;
     vertical-align: middle;
     display: table-cell;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 40px;
+	padding-right: 30px;
 }
 
 .caption-content h2 {
@@ -546,15 +541,19 @@ h1.navbar-brand {
 }
 
 
+
 .caption-content > h4 {
     display: block;
-    color: white;
-    font-size: 28px;
-	text-shadow: 1px 1px 5px black;
-	text-align: center;
-	font-family: "Work Sans";
-	background-color: transparent;
-	}
+    color: #f5f5f5eb;
+    font-size: 30px;
+    padding: 45px;
+	/*text-shadow: 0.5px 0.5px 5px black;*/
+	font-family: "Roboto Slab";
+	background-color: #57bc90d6;
+	border-radius: 20px;
+	float: left;
+	
+}
 
 .caption-content > span {
     display: block;
@@ -562,7 +561,7 @@ h1.navbar-brand {
     font-size: 30px;
     padding: 45px;
 	text-shadow: 0.5px 0.5px 5px black;
-	font-family: "Work Sans";
+	font-family: "Roboto Slab";
     background-color:#57BC90:
 	border-radius: 30px;
 }
@@ -644,6 +643,60 @@ h1.navbar-brand {
 .sl-content {
     width: 100%;
     height: 100%;
+}
+
+/* Default styles for background colors
+
+.btn-effect:after {
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    content: "";
+    position: absolute;
+    z-index: -1;
+
+    -webkit-transition: all 0.3s ease-out 0s;
+       -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+         -o-transition: all 0.3s ease-out 0s;
+            transition: all 0.3s ease-out 0s;
+}
+
+.btn-effect:hover,
+.btn-effect:active {
+    color: #0e83cd;
+}
+
+.btn-effect:hover:after,
+.btn-effect:active:after {
+    width: 100%;
+} */
+
+
+/* Project laughtbox setup */
+
+.fancybox-item.fancybox-close {
+    background: url("../img/icons/close.png") no-repeat scroll 0 0 transparent;
+    height: 50px;
+    right: 0;
+    top: 0;
+    width: 50px;
+}
+
+.fancybox-next span {
+    background: url("../img/right.png") no-repeat scroll center center #009ee3;
+    height: 50px;
+    width: 50px;
+    right: 0;
+}
+
+.fancybox-prev span {
+    background: url("../img/left.png") no-repeat scroll center center #009ee3;
+    height: 50px;
+    width: 50px;
+    left: 0;
 }
 
 
@@ -1910,7 +1963,7 @@ textarea.form-control {
 
 #home-slider .main-title h2 {
 	color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;	
     text-transform: uppercase;
 	text-shadow: 1px 1px 5px black;

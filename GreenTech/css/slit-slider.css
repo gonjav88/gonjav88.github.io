@@ -22,6 +22,7 @@
     background-attachment: fixed;
 	height: 100%;
 	width: 100%;
+	z-index: -1;
 }
 
 /* Custom navigation arrows */
@@ -157,12 +158,13 @@
 
 .bg-img-1 {
 	background-image: url(../img/slider/bg5.jpg);
+	transform: translateY(10%)
 }
 .bg-img-2 {
 	background-image: url(../img/slider/residencial.jpg);
 }
 .bg-img-3 {
-	background-image: url(../img/slider/cinelli.jpeg);
+	background-image: url(../img/slider/cinelli.png);
 }
 .bg-img-4 {
 	background-image: url(../img/slider/led_efficient.jpg);
