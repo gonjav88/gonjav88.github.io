@@ -184,6 +184,9 @@
 	background-image: url(../img/bg/working.jpg);
 }
 
+.bg-img-9 {
+    background-image: url(../img/slider/bg82.jpg);
+}
 /* Animations for content elements */
 
 .sl-trans-elems .caption-content h2 {

@@ -465,26 +465,8 @@ h1.navbar-brand {
 	text-align: center;	
 }
 
-#vid-slider {
-    position: relative;    
-    font-family: 'Work Sans', sans-serif;
-    background-color: rgba(255, 255, 255, 0.67);
-    background-size: cover;
-    background-attachment: fixed;
-    /*background-image: url(../img/slider/bg5.jpg);*/
-    background-blend-mode: soft-light;         
-}
 
-.parallax-vid {
-    position: inherit;
-    padding-top: 0px;
-    height: 475px;
-}
 
-.el-video {
-    padding-top: 100px;
-     
-}
 
 .sl-slider-wrapper {
     width: 100%;
@@ -655,13 +637,13 @@ h1.navbar-brand {
     background: rgba(102, 140, 255, .5); /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#77C9D4, #57BC90, #fff); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#77C9D4, #57BC90, #fff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#77C9D4, #57BC90, #fff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#77C9D4, #57BC90, #fff); /* Standard syntax (must be last) */
+    background: -moz-linear-gradient(#007342, #57BC90, #9DE6C7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#007342, #57BC90, #9DE6C7); /* Standard syntax (must be last) */
 }
 
-#servicio-ppal h1 {
+#servicio-ppal h1, h2 {
     font-family: "Roboto Slab", sans-serif;
-    color: black;
+    color: #9DE6C7;
 	text-transform: uppercase;
 	padding-bottom: 10px;
 }
@@ -1514,7 +1496,46 @@ textarea.form-control {
     width:19%;
 }
 
+/*=================================================================
+	Energías.html
+==================================================================*/
+#eerr .eerr-title {    
+    text-align: center;
+}
 
+#eerr .eerr-exp{
+    padding: 1em 0 0 0;
+}
+
+#vid-slider {
+    position: relative;    
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(255, 255, 255, 0.67);
+}
+
+.parallax-vid {
+    position: inherit;
+    padding-top: 0px;    
+}
+
+.vid-title h2, h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.el-video {
+    padding-top: 1%;   
+    float: none;
+    padding: 0 10px;
+}
+
+#vid-slider video {
+    width: 100%;
+    border-top: 0.05px lightblue solid;
+    border-radius: 0;
+    height: 333px;
+    padding-top: 1em 1em;
+}
 
 
 /*============================================================ 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="en">
+<html lang="es">
 <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
@@ -33,6 +33,10 @@
 
 		<!-- Custom css --> 
 		<link href="css/custom.css" rel="stylesheet">
+		
+		
+
+		
 	</head>
 
 	<body class="no-trans">
@@ -130,16 +134,13 @@
 
 		<!-- banner start -->
 		<!-- ================ -->
-		<div id="banner" class="banner">
-			<div class="banner-image"></div>
-			<div class="banner-caption">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-                            <h1 class="text-center">Gonzalo Rodríguez</br><span>Soluciones en Ingeniería</span></h1>
-							<p class="lead text-center">Soluciones integrales en servicios de ingeniería química, eficiencia energética, energías renovables y mediambiente. </p>
-						</div>
-					</div>
+		<div class="container-fluid demo-1">
+			<div class="content" style="width:100%">
+				<div id="large-header" class="large-header" style="height: 696px;">
+					<canvas id="demo-canvas" width="1366" height="696"></canvas>
+					<h1 class="main-title">Gonzalo Rodríguez</br><span class="thin">Soluciones en Ingeniería</span></h1>
+					<p class="lead text-center">Soluciones integrales en servicios de ingeniería química, eficiencia energética, energías renovables y mediambiente. </p>
+					
 				</div>
 			</div>
 		</div>
@@ -587,6 +588,12 @@
 
 		<!-- JavaScript files placed at the end of the document so the pages load faster
 		================================================== -->
+    
+        <script src="js/TweenLite.js"></script>
+		<script src="js/EasePack.js"></script>
+		<script src="js/rAF.js"></script>
+        <script src="js/demo-1.js"></script>
+    
 		<!-- Jquery and Bootstap core js files -->
 		<script type="text/javascript" src="plugins/jquery.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -608,6 +615,10 @@
 
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="js/custom.js"></script>
-
+	
+		<!-- Canvas -->
+		
+		
+		
 	</body>
 </html>
