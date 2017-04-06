@@ -138,13 +138,19 @@ blockquote {
 	width: 100%;
 	background: #333;
 	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
 	z-index: 1;
 }
 
+#demo-canvas {
+    width: auto;
+}
+
+
+
 .demo-1 .large-header {
 	background-image: url('../images/banner.jpg');
+    background-size: cover;
+	background-position: center;
 }
 
 .main-title {
