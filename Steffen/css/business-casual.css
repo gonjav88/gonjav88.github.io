@@ -181,6 +181,12 @@ footer p {
   table-layout: fixed;
   font-size: 1.25em;
 }
+	
+.img-logo {
+	margin-top: -20px;
+	margin-bottom: -30px;
+}
+
 
 }
 
