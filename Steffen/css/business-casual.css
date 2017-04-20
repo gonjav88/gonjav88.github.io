@@ -60,7 +60,7 @@ hr {
 
 .box {
   background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.7);
   margin-bottom: 20px;
   padding: 30px 15px;
 }
@@ -70,6 +70,21 @@ hr {
   letter-spacing: 1px;
   font-size: 1.25em;
   font-weight: 400;
+}
+
+.navbar {  
+	margin-bottom: 0;	
+}
+
+.img-logo {
+	
+}
+
+.logo-st {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
 }
 
 .img-border {
@@ -147,7 +162,7 @@ footer p {
 
 .navbar-default {
   background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.6);
   border: none;
 }
 
