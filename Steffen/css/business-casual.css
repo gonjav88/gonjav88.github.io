@@ -1,3 +1,12 @@
+@font-face { 
+			font-family: "niagsol";
+			src: url('niagsol.ttf');
+		}
+		@font-face { 
+			font-family: "bookantiqua"; 
+			src: url('bookantiqua.ttf');
+		}
+
 body {
   background: url(../img/bg6.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -10,12 +19,15 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
+  font-family: 'bookantiqua', Serif;
 }
 
 p {
   font-size: 1.25em;
   line-height: 1.6;
   color: #000;
+  font-family: "bookantiqua", Sans-serif;	
+	
 }
 
 hr {
@@ -115,9 +127,10 @@ footer p {
 @media screen and (min-width: 768px) {
 
 .brand {
+  font-family:'niagsol', Serif;
   display: inherit;
-  font-weight: 700;
-  font-size: 5em;
+  font-weight: 0;
+  font-size: 6em;
   line-height: normal;
   text-align: center;
   margin: 0;
@@ -136,6 +149,7 @@ footer p {
 }
 
 .address-bar {
+  font-family:'bookantiqua', Serif;
   display: inherit;
   text-align: center;
   margin: 0;
@@ -175,11 +189,12 @@ footer p {
 }
 
 .navbar-nav {
+  font-family:'niagsol', Serif;
   float: none;
   margin: 0 auto;
   display: table;
   table-layout: fixed;
-  font-size: 1.25em;
+  font-size: 2.5em;
 }
 	
 .img-logo {
