@@ -1,11 +1,11 @@
 @font-face { 
 			font-family: "niagsol";
 			src: url('niagsol.ttf');
-		}
-		@font-face { 
+}
+@font-face { 
 			font-family: "bookantiqua"; 
 			src: url('bookantiqua.ttf');
-		}
+}
 
 body {
   background: url(../img/bg6.jpg) no-repeat center center fixed; 
@@ -27,7 +27,12 @@ p {
   line-height: 1.6;
   color: #000;
   font-family: "bookantiqua", Sans-serif;	
-	
+}
+
+.serv-list li {
+	font-family: 'bookantiqua', Serif;
+	font-size: 1.2em;
+  	line-height: 1.6;
 }
 
 hr {
@@ -124,6 +129,15 @@ footer p {
   padding: 50px 0;
 }
 
+.persona img {
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 4px;
+	opacity: 1;
+	filter: alpha(opacity=100); /* Para IE8 and earlier */
+	
+}
+
 @media screen and (min-width: 768px) {
 
 .brand {
@@ -202,6 +216,9 @@ footer p {
 	margin-bottom: -32px;
 }
 
+.serv-list {
+	padding-left: 20px;
+	}
 
 }
 
