@@ -46,6 +46,10 @@ hr {
   max-width: 400px;
 }
 
+.panel-body {
+    font-family: 'bookantiqua', Serif;
+}
+
 .brand,
 .address-bar {
   display: none;
