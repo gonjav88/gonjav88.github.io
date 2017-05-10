@@ -29,6 +29,12 @@ p {
   font-family: "bookantiqua", Sans-serif;	
 }
 
+.dropdown-menu a {
+    font-family: 'bookantiqua', Serif;
+    font-size: 0.8em;
+    
+}
+
 .serv-list li {
 	font-family: 'bookantiqua', Serif;
 	font-size: 1.2em;
@@ -135,7 +141,10 @@ footer p {
 	border-radius: 4px;
 	opacity: 1;
 	filter: alpha(opacity=100); /* Para IE8 and earlier */
-	
+}
+
+small h5, h6, a {
+    color: dimgray;
 }
 
 @media screen and (min-width: 768px) {
@@ -219,6 +228,10 @@ footer p {
 .serv-list {
 	padding-left: 20px;
 	}
+
+    .serv-jud {
+        padding-top: .5%;
+    }
 
 }
 
