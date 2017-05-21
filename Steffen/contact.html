@@ -94,28 +94,40 @@
                     </h2>
                     <hr>
                     <p>Puede enviar su consulta completando el siguiente formulario.</p>
-                    <form role="form">
+                    <form name="htmlform" action="contact.php" method="post">
                         <div class="row">
                             <div class="form-group col-lg-4">
-                                <label>Nombre y Apellido</label>
-                                <input type="text" class="form-control">
+                                <label>Nombre</label>
+                                <input type="text" name="name" class="form-control" placeholder="">
+                            </div>
+							<div class="form-group col-lg-4">
+                                <label>Apellido</label>
+                                <input type="text" name="surname" class="form-control" placeholder="">
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Email</label>
-                                <input type="email" class="form-control">
+                                <input type="email" name="email" class="form-control" placeholder="Ej: juanperez@gmail.com">
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Teléfono</label>
-                                <input type="tel" class="form-control">
+                                <input type="tel" name="tel" class="form-control" placeholder="Ej: (0291) 154-444 444">
+                            </div>
+							<div class="form-group col-lg-4">
+                                <label>Localidad</label>
+                                <input type="text" name="city" class="form-control" placeholder="">
+                            </div>
+							<div class="form-group col-lg-4">
+                                <label>Asunto de Consulta</label>
+                                <input type="text" name="subject" class="form-control" placeholder="Ingrese el asunto de su consulta">
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">
                                 <label>Mensaje</label>
-                                <textarea class="form-control" rows="6"></textarea>
+                                <textarea class="form-control" name="message" placeholder="Ingrese aquí su consulta..." rows="6"></textarea>
                             </div>
                             <div class="form-group col-lg-12">
                                 <input type="hidden" name="save" value="contact">
-                                <button type="submit" class="btn btn-default">Enviar</button>
+                                <button type="submit" id="submit" class="btn btn-default">Enviar</button>
                             </div>
                         </div>
                     </form>
