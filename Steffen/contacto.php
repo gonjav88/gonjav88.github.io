@@ -61,7 +61,7 @@ echo '
                             </div>
 							<div class="form-group col-lg-4">
                                 <label>Localidad</label>
-                                <input type="text" name="city" class="form-control" placeholder="">
+                                <input type="text" name="city" class="form-control" placeholder="Bahía Blanca">
                             </div>
 							<div class="form-group col-lg-4">
                                 <label>Asunto de Consulta</label>

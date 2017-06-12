@@ -29,6 +29,8 @@ p {
   font-family: "bookantiqua", Sans-serif;	
 }
 
+
+
 .dropdown-menu a {
     font-family: 'bookantiqua', Serif;
     font-size: 0.8em;
@@ -55,6 +57,17 @@ hr {
   display: none;
 }
 
+.abonos p {
+    font-weight: 100;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.abonos ul p {
+    font-size: 1.1em;
+}
 
 .navbar-brand {
   text-transform: uppercase;

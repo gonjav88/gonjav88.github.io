@@ -8,7 +8,7 @@ $recipient2 = $_REQUEST['email'];
 
 $remit_mail = $_REQUEST['email'];
 $remit_name = $_REQUEST['name'];
-$remit_surname = $_REQUEST['surname]:
+$remit_surname = $_REQUEST['surname']:
 
 
 ## FORM VALUES ##
@@ -45,18 +45,8 @@ $body2 .= "\n Mensaje original: $message";
 
 
 ## SEND MESSGAE ##
-#if ($human == 5) {
-#    mail( $recipient, $subject, $body, "From: $sender" ) or die ("Mail could not be sent.");
-#    mail( $remit_mail, $subject2, $body2, "From: $sender") or die ("Mail rta not be sent");
-#    ## RESULT PAGE ##
-#    header( "Location: $location" );
-#} else {
-#    header("Location: http://greentech.com.ar/form-error.html");
-#}
-
-## SEND MESSGAE ##
 	mail( $recipient, $subject, $body, "From: $sender" ) or die ("Mail could not be sent.");
 	mail( $remit_mail, $subject2, $body2, "From: $sender") or die ("Mail rta not be sent");
 
-	header( "Location: $location" );
+	header("Location: $location");
 ?>

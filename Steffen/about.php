@@ -19,7 +19,7 @@ echo '
 						<div class="persona">
 							<div class="col-sm-6 text-center">
 								<img class="img-responsive" src="img/diego.png" width="750px" height="100%" alt="">
-								<h3>Diego Steffen
+								<h3>Diego M. Steffen
 									<small>
 									<h5>Universidad Nacional del Sur</h5>
 									<h5>T° XVI, F° 116 del C.A.B.B.</h5>
@@ -32,10 +32,10 @@ echo '
 							</div>
 							<div class="col-sm-6 text-center">
 								<img class="img-responsive" src="img/federico.png" width="750px" height="100%" alt="">
-								<h3>Federico Torres
+								<h3>Federico E. Torres
 									<small>
 									<h5>Universidad Nacional del Sur</h5>
-									<h5>T° XVI, F° 127 del C.A.B.B.</h5>
+									<h5>T° XVII, F° 127 del C.A.B.B.</h5>
 									<h5>T° 53, F° 955 de la C.A.F.B.B.</h5>
 									</small>
 								</h3>
