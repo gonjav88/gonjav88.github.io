@@ -185,7 +185,11 @@
 }
 
 .bg-img-9 {
-    background-image: url(../img/slider/bg82.jpg);
+    background-image: url(../img/slider/bg82.jpg);    
+}
+
+.bg-img-10 {
+    background-image: url(../img/slider/bg10.jpg);
 }
 /* Animations for content elements */
 
