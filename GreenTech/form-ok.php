@@ -1,8 +1,12 @@
+<?php
+
+
+
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html lang="es" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="es" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="es" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="es" class="no-js"> <!--<![endif]-->
     <head>
     	<!-- meta character set -->
         <meta charset="utf-8">
@@ -11,9 +15,9 @@
         <link rel="icon" type="image/png" href="img/Logo.png">
         <title>GreenTech</title>		
 		<!-- Meta Description -->
-         <meta name="description" content="Ofrecemos soluciones integrales en eficiencia energética, energías renovables y medioambiente generando ahorro económico y disminución de impacto ambiental, mejorando tanto la imagen de nuestros clientes en el mercado como el confort dentro de su hogar o establecimiento">
+        <meta name="description" content="Ofrecemos soluciones integrales en eficiencia energética, energías renovables y medioambiente generando ahorro económico y disminución de impacto ambiental, mejorando tanto la imagen de nuestros clientes en el mercado como el confort dentro de su hogar o establecimiento">
         <meta name="GreenTech" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-        <meta name="GonJav88" content="GreenTech">
+        <meta name="author" content="gonjav88">
 		
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,6 +27,7 @@
 		
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 		
 		<!-- Fontawesome Icon font -->
         <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
@@ -44,8 +49,7 @@
 
 		<!-- Modernizer Script for old Browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
-        
-        
+                
 
     </head>
 	
@@ -66,11 +70,11 @@
             <div class="container">
                 <div class="navbar-header">
                 <a href="index.html">     
-                    <img id="logo" src="img/LogoGES.png" alt="logo" class="hidden-xs visible-sm visible-md visible-lg">
-                    <img id="logo" src="img/Logo.png" alt="logo" class="visible-xs hidden-sm hidden-md hidden-lg">
+                    <img id="logo" src="img/LogoGES.png" alt="logo" class="hidden-xs hidden-sm visible-md visible-lg">
+                    <img id="logo" src="img/Logo.png" alt="logo" class="visible-xs visible-sm hidden-md hidden-lg">
                 </a>
                     <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style:"color=black">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -86,15 +90,15 @@
                 </div>
 
 				<!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                <nav class="collapse navbar-collapse navbar-right nav-titles" role="navigation" id="nav-titles">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="main.html" class="external">Inicio</a></li>
+                        <li><a href="index.html" class="external">Inicio</a></li>
                         <li><a href="contacto.html" class="external">Quienes Somos</a></li>
                         <li class="dropdown">
        						<a class="dropdown-toggle" data-toggle="dropdown" href="#servic">Servicios
     					     <span class="caret"></span></a>
      						   <ul class="dropdown-menu">
-     						   		<li><a href="eficiencia.html" class="external">Eficiencia Energégica</a></li>
+     						   		<li><a href="eficiencia.html" class="external">Eficiencia Energética</a></li>
 									<li><a href="energias.html" class="external">Energías Renovables</a></li>
 									<li><a href="ambiental.html" class="external">Servicios Ambientales</a></li>
 								</ul>
@@ -105,12 +109,13 @@
      						   <ul class="dropdown-menu">
         							  <li><a href="paneles.html" class="external">Paneles Solares</a></li>
           							  <li><a href="termos.html" class="external">Termotanques Solares</a></li>
-          							  <li><a href="accesorios.html" class="external">Accesorios</a></li>
+          							  
+          							  <li><a href="accesorios.html" class="external">Iluminación</a></li>
        						   </ul>
     				    </li>
                         <!-- <li><a href="#testimonials">Testimonial</a></li>
                         <li><a href="#price">price</a></li> -->
-                        <li><a href="index.html#contact" class="external">Contacto</a></li>
+                        <li><a href="main.html#contact" class="external">Contacto</a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -120,25 +125,21 @@
         <!--
         End Fixed Navigation
         ==================================== -->
-		
-		<main class="site-content" role="main">
-			
-		<!--
-        Home
-        ==================================== -->
-			<section id="formulario">
-				<div "formul">	
-							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLloN9LRQpgzfwpWIOSJAh2gGlOGKiP0h87SADOYAx-ETaEQ/viewform?embedded=true" width="100%" height="600" scrolling="yes" frameborder="1" marginheight="10" marginwidth="0">Cargando...</iframe>
-				</div>
-		   </section>
-        <!--
-        End Home 
-        ==================================== -->	
-		
-		
-		</main>
-		
-		<footer id="footer">
+        
+        <div class="container" style="padding-top:10%; padding-bottom:10%">
+            <div class="text-error text-center">
+                <h2 style="color:darkslategrey">¡Mensaje Enviado!</h2>
+                <p>Tu mensaje ha sido enviado correctamente. En breve uno de nuestros representantes se pondrá en contacto para resolver tus dudas.</p>
+                <p>Muchas gracias por escribirnos.</p>
+            
+                <a href="main.html#contact" class="external">
+                    <div class="btn btn-primary">Volver</div>
+                </a>
+            </div>
+        </div>
+        
+        
+        <footer id="footer">
 			<div class="container">
 				<div class="row text-center">
 					<div class="footer-content">
@@ -166,9 +167,16 @@
 							</ul>
 						</div>-->
 						
-						<p>Design And developed By <a href="http://fb.com/gonjav">GonJav88</a>.</p>
+						<p>Design And developed By <a href="http://gonjav88.github.io">GonJav88</a>.</p>
+						
 					</div>
 				</div>
+			</div>
+			
+			<div class="webmail">
+				<a href="https://webmail.ferozo.com/appsuite/">
+					<img src="img/webmail.png" alt="webmail" class="img-responsive" style="padding-top: 2px" width="50px" height="100%"> 
+				</a>
 			</div>
 		</footer>
 
@@ -213,3 +221,6 @@
         
     </body>
 </html>
+            
+            
+?>

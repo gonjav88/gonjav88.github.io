@@ -412,6 +412,8 @@ h1.navbar-brand {
 		
 }
 
+
+
 /*=================================================================
 	Home Slider
 ==================================================================*/
@@ -612,6 +614,54 @@ h1.navbar-brand {
     height: 100%;
 }
 
+/*=================================================================
+	Portada
+==================================================================*/
+#main-port .caption-content img {
+    margin: auto;
+    width: 200px;
+}
+
+#main-port .button {
+  border-radius: 10px;
+  background-color: transparent;
+  border: solid;
+  color: #e6e600;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#main-port .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+#main-port .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#main-port .button:hover span {
+  padding-right: 25px;
+}
+
+#main-port .button:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
 
 /*=================================================================
 	Serv. Ppal
@@ -677,7 +727,6 @@ h1.navbar-brand {
 .item-servicio:hover p {    
     transform: translateY(-5px);
 }
-	
 
 /*=================================================================
 	El Como
@@ -689,9 +738,7 @@ h1.navbar-brand {
 
 #el-como .row {
 	padding-top: 20px;
-
 }
-
 
 #el-como h2 {
 	color: rgb(0,0,0);
@@ -710,8 +757,6 @@ h1.navbar-brand {
 	height: 80px;
 	position: center;
 }
-
-
 
 .como-icon img {
 	display: block;

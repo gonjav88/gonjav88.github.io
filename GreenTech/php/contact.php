@@ -20,7 +20,7 @@ $subject = "Mail de Consulta de $remit_name $remit_mail";
 $subject2 = "GreenTech - Consulta recibida. Asunto: $formsubject";
 
 # RESULT PAGE
-$location = "http://www.greentech.com.ar";
+$location = "http://www.greentech.com.ar/form-ok.html";
 
 
 
