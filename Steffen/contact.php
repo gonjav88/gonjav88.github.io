@@ -45,6 +45,7 @@ $body2 .= "\n Mensaje original: $message";
 
 
 ## SEND MESSGAE ##
+
 	mail( $recipient, $subject, $body, "From: $sender" ) or die ("Mail could not be sent.");
 	mail( $remit_mail, $subject2, $body2, "From: $sender") or die ("Mail rta not be sent");
 
