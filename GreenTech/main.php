@@ -1,6 +1,56 @@
-<?php 
-$page_name = "Bienvenido a GreenTech";
+<?php
+    if(isset($_POST['submit'])){
+
+        # LIST EMAIL ADDRESS ##
+        $recipient = "info@greentech.com.ar";
+        $recipient2 = $_REQUEST['email'];
+
+        $remit_mail = $_REQUEST['email'];
+        $remit_name = $_REQUEST['name'];
+
+        ## FORM VALUES ##
+        $name = $_REQUEST['name'];
+        $human = $_REQUEST['human'];
+        $message = $_REQUEST['message'];
+        $formsubject = $_REQUEST['subject'];
+
+        # SUBJECT (Subscribe/Remove)
+        $subject = "Mail de Consulta de $remit_name $remit_mail";
+        $subject2 = "GreenTech - Consulta recibida. Asunto: $formsubject";
+
+        # RESULT PAGE
+        $location = "http://www.greentech.com.ar/form-ok.php";
+
+        # SENDER 
+        $sender = $recipient;
+
+        # MAIL BODY
+        $body .= "Name: ".$_REQUEST['name']." \n";
+        $body .= "Email: ".$_REQUEST['email']." \n";
+        $body .= "Asunto: ".$_REQUEST['subject']." \n";
+        $body .= "Mensaje: ".$_REQUEST['message']." \n";
+
+        # MAIL 2 BoDy #
+        $body2 .= "Gracias $remit_name por ponerse en contacto con nosotros, en breve estaremos respondiendo su consulta. \n";
+        $body2 .= "Muchas gracias \n";
+        $body2 .= "\n Mensaje original: $message";
+
+
+        ## SEND MESSGAE ##
+        if ($human == 5) {
+            mail( $recipient, $subject, $body, "From: $sender" ) or die ("Mail could not be sent.");
+            mail( $remit_mail, $subject2, $body2, "From: $sender") or die ("Mail rta not be sent");
+            ## RESULT PAGE ##
+            header("Location: http://greentech.com.ar/form-ok.php");
+        } else {
+            header("Location: http://greentech.com.ar/form-error.php");
+        }
+    }
+ 
+$page_name = "GreenTech Inicio";
+
 include ('head.php');
+
 ?>
 	
 <body id="body">
@@ -207,7 +257,7 @@ include ('navbar.html');
 						
 						
 						<div class="col-md-7 contact-form wow animated fadeInLeft">
-							<form name="htmlform" action="/php/contact.php" method="post">
+							<form name="htmlform" action="" method="post">
 								<div class="input-field">
 									<input type="text" name="name" class="form-control" placeholder="Tu Nombre y Apellido...">
 									
@@ -230,10 +280,12 @@ include ('navbar.html');
     							</div>
 								<div style="height: 15px"></div>
                                 <div class="g-recaptcha" data-sitekey="6LcV4yUUAAAAAME_6D9SI8Gy7bwOI843QWIQ4V9D"></div>
-						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
-						       	                                
+						       	<button type="submit" name="submit" id="submit" value="submit" class="btn btn-blue btn-effect">Enviar</button>
+                                						       	                                
 							</form>
 						</div>
+                        
+                       
 						
 						<div class="col-md-5 wow animated fadeInRight contacto">
 							<address class="contact-details">
