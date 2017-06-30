@@ -1,5 +1,5 @@
 <?php 
-$page_name = "Quienes Somos";
+$page_name = "Servicios Ambientales y Calidad";
 include ('head.php');
 include ('navbar.html');
 ?>

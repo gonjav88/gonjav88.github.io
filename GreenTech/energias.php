@@ -1,5 +1,5 @@
 <?php 
-$page_name = "Quienes Somos";
+$page_name = "Energías Renovables";
 include ('head.php');
 include ('navbar.html');
 ?>
