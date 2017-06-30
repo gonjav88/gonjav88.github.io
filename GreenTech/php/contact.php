@@ -20,7 +20,7 @@ $subject = "Mail de Consulta de $remit_name $remit_mail";
 $subject2 = "GreenTech - Consulta recibida. Asunto: $formsubject";
 
 # RESULT PAGE
-$location = "http://www.greentech.com.ar/form-ok.html";
+$location = "http://www.greentech.com.ar/form-ok.php";
 
 
 
@@ -46,7 +46,7 @@ if ($human == 5) {
     ## RESULT PAGE ##
     header( "Location: $location" );
 } else {
-    header("Location: http://greentech.com.ar/form-error.html");
+    header("Location: http://greentech.com.ar/form-error.php");
 }
 
 ?>

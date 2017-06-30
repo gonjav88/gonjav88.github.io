@@ -235,13 +235,13 @@ include ('navbar.html');
 							</form>
 						</div>
 						
-						<div class="col-md-5 wow animated fadeInRight">
+						<div class="col-md-5 wow animated fadeInRight contacto">
 							<address class="contact-details">
 								<h3>Contactanos</h3>						
 								<p><i class="fa fa-pencil"></i>GreenTech <span>Bahía Blanca, Buenos Aires </span><span>Argentina</span></p><br>
-								<p><i class="fa fa-phone"></i>Tel: (+54) 9291 643 7824 </p>
-								<p><i class="fa fa-envelope"></i>info@greentech.com.ar</p>
-							</address>
+								<p><i class="fa fa-phone"></i><a href="tel:+542916437824"  style="color:#006b99">Tel: (+54) 9291 643 7824</a></p>
+								<p><i class="fa fa-envelope"></i><a href="mailto:info@greentech.com.ar" target="_top"  style="color:#006b99">info@greentech.com.ar</a></p>
+                            </address>
 						</div>
 			
 					</div>

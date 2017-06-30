@@ -1380,6 +1380,9 @@ ul.external li a:hover {
     color: black;
 }
 
+#contact .contacto a {
+    color: #818181;
+}
 
 .input-field {
     margin-bottom: 10px;
