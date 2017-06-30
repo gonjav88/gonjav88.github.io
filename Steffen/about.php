@@ -1,9 +1,12 @@
 <?php 
 
-include('navbar.html');
+$page_name = "Nosotros";
 
-echo '
-	  <body>
+include('navbar.php');
+
+?>
+
+	  
 	  		<div class="container">
 
         
@@ -52,9 +55,9 @@ echo '
 			</div>
 	  	
 	  
-	  </body>
+	  
 
-';
+<?php
 
 include('footer.html');
 

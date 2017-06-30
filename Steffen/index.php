@@ -1,9 +1,13 @@
 <?php 
 
-include('navbar.html');
+$page_name = "Steffen - Torres";
 
-echo '
-		<body>
+include('navbar.php');
+
+?>
+
+
+		
 		<div class="container">
 
         <div class="row">
@@ -52,11 +56,10 @@ echo '
     
 
     	
-	</body>
+	
 
-</html>
 
-';
+<?php
 
 include('footer.html');
 

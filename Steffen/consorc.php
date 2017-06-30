@@ -1,8 +1,12 @@
 <?php 
 
-include('navbar.html');
+$page_name = "Abonos y Consorcios";
 
-echo '
+include('navbar.php');
+
+?>
+
+
 <div class="container">
 	<div class="row">
 		<div class="box">
@@ -116,8 +120,8 @@ echo '
 	</div> <!-- /row -->
 </div> <!-- /container -->
 
-';
 
+<?php
 
 include('footer.html');
 
