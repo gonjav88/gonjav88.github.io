@@ -9,10 +9,10 @@
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <link rel="icon" type="image/png" href="img/Logo.png">
-        <title>Bienvenido a GreenTech</title>		
+        <title></title>		
 		<!-- Meta Description -->
-        <meta name="description" content="Ofrecemos soluciones integrales en eficiencia energética, energías renovables y medioambiente generando ahorro económico y disminución de impacto ambiental, mejorando tanto la imagen de nuestros clientes en el mercado como el confort dentro de su hogar o establecimiento">
-        <meta name="GreenTech" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+        <meta name="description" content="Soluciones integrales en eficiencia energética, energías renovables y medioambiente.">
+		<meta name="keyword" content="eficiencia, energías, renovables, efficiency, renewable, enviroment, fotovoltaico, photovoltaic, led, illumination, iluminación">
         <meta name="author" content="gonjav88">
 		
 		<!-- Mobile Specific Meta -->
@@ -69,6 +69,45 @@
         <script src="js/wow.min.js"></script>
 		<!-- Custom Functions -->
         <script src="js/main.js"></script> 
+        
+        
+        <script language=javascript>
+            var rev = "fwd";
+            function titlebar(val){
+                var msg  = "GreenTech - Eficiencia Energética y Energías Renovables";
+                var res = " ";
+                var speed = 100;
+                var pos = val;
+                msg = ""+msg+"";
+                var le = msg.length;
+                if(rev == "fwd"){
+                    if(pos < le){
+                        pos = pos+1;
+                        scroll = msg.substr(0,pos);
+                        document.title = scroll;
+                        timer = window.setTimeout("titlebar("+pos+")",speed);
+                    }
+                    else {
+                        rev = "bwd";
+                        timer = window.setTimeout("titlebar("+pos+")",speed);
+                    }
+                }
+                else {
+                    if(pos > 0) {
+                        pos = pos-1;
+                        var ale = le-pos;
+                        scrol = msg.substr(ale,le);
+                        document.title = scrol;
+                        timer = window.setTimeout("titlebar("+pos+")",speed);
+                    }
+                    else {
+                        rev = "fwd";
+                        timer = window.setTimeout("titlebar("+pos+")",speed);
+                    }
+                }
+            }
+            titlebar(0);
+        </script>
         
     </head>
     

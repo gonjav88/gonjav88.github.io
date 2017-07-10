@@ -1,5 +1,5 @@
 <?php
-$page_name = "Bienvenido a GreenTech";
+$page_name = "GreenTech - Eficiencia Energética y Energías Renovables";
 include ('head.php');
 ?>
     

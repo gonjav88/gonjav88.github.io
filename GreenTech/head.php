@@ -11,8 +11,8 @@
         <link rel="icon" type="image/png" href="img/Logo.png">
         <title> <?php echo $page_name; ?> </title> 		
 		<!-- Meta Description -->
-        <meta name="description" content="Ofrecemos soluciones integrales en eficiencia energética, energías renovables y medioambiente generando ahorro económico y disminución de impacto ambiental, mejorando tanto la imagen de nuestros clientes en el mercado como el confort dentro de su hogar o establecimiento">
-        <meta name="GreenTech" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+        <meta name="description" content="Soluciones integrales en eficiencia energética, energías renovables y medioambiente.">
+		<meta name="keyword" content="eficiencia, energías, renovables, efficiency, renewable, enviroment, fotovoltaico, photovoltaic, led, illumination, iluminación">
         <meta name="author" content="gonjav88">
 		
 		<!-- Mobile Specific Meta -->
