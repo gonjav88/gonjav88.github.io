@@ -1,5 +1,5 @@
 <?php 
-$page_name = "Termotanques Solares";
+$page_name = "Luminaria LED";
 include ('head.php');
 include ('navbar.html');
 ?>
