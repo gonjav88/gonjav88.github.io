@@ -221,7 +221,7 @@ include ('navbar.html');
 							<ul class="social-button">
 								<li class="wow animated zoomIn"><a href="https://www.facebook.com/greentech.bb"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
 								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://twitter.com/greentech_bb"><i class="fa fa-twitter fa-2x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.instagram.com/greentech.bb"><i class="fa fa-instagram fa-2x"></i></a></li>							
+								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://www.instagram.com/greentech.ar"><i class="fa fa-instagram fa-2x"></i></a></li>							
 							</ul>
 							
 						</div>
@@ -235,8 +235,13 @@ include ('navbar.html');
                 <div class="row text-center">
                     <h1>Alianzas estratégicas</h1>
                     <p>Comprendemos la importancia de crear lazos de colaboración entre distintas empresas e</br>instituciones del sector para fomentar el crecimiento tecnológico de la ciudad</br>y mejorar la calidad de vida de sus habitantes.</p>
-                    <div class="img-ptbb">
-                    <img src="img/ptbb.png" alt="PTBB" class="img-responsive" style="padding-top: 2px" width="200px"> 
+                    <div class="row">
+                        <div class="img-alian">
+                            <img src="img/ptbb.png" alt="PTBB" class="img-responsive" style="padding-top: 2px"> 
+                        </div>
+                        <div class="img-alian">
+                            <img src="img/gestion-consultora.png" alt="Gestión Consultora" class="img-responsive" style="padding-top: 2px">
+                        </div>
                     </div>
                 </div>
             </div>

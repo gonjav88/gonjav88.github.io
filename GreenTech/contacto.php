@@ -43,12 +43,10 @@ include ('navbar.html');
 				<div class="container">
 				 <div class="row">
 				   <div class="col-sm-12 col-md-12 wow animated fadeInLeft">
-							<div class="recent-works">
-								<h1 class="white text-center"></h1>
-								
-									<div class="aboutext">
-										<h4>Somos una empresa dedicada a ofrecer soluciones <b>integrales</b> en materia de eficiencia energética, energía renovables, gestión ambiental y gestión de calidad, generando <b>ahorro</b> y mejorando la posición de su empresa ante la competencia, cumpliendo con los requisitos normativos y habilitaciones correspondientes.</h4>
-										<h4>Contamos con un equipo de trabajo multidisciplinario, conformado por personas competentes y eficaces que poseen el entusiasmo y determinación que nos ayuda a superarnos día a día.  Así mismo, brindamos servicios para pequeños comercios y viviendas, pudiendo hacer de su establecimiento u hogar un ambiente <b>confortable, sustentable y eficiente</b>.</h4>
+							<div class="recent-works">		
+								    <div class="aboutext">
+										<p>Somos una empresa dedicada a ofrecer soluciones <b>integrales</b> en materia de eficiencia energética, energía renovables, gestión ambiental y gestión de calidad, generando <b>ahorro</b> y mejorando la posición de su empresa ante la competencia, cumpliendo con los requisitos normativos y habilitaciones correspondientes.</p>
+										<p>Contamos con un equipo de trabajo multidisciplinario, conformado por personas competentes y eficaces que poseen el entusiasmo y determinación que nos ayuda a superarnos día a día.  Así mismo, brindamos servicios para pequeños comercios y viviendas, pudiendo hacer de su establecimiento u hogar un ambiente <b>confortable, sustentable y eficiente</b>.</p>
 									</div>
 								
 						</div>
