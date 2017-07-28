@@ -17,7 +17,7 @@ include ('navbar.html');
 				
 					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 
-						<div class="bg-img bg-img-9"></div>  <!-- ver en slit-slider.css -->
+						<div class="bg-img bg-img-energ"></div>  <!-- ver en slit-slider.css -->
 
 						<div class="slide-caption">
                             <div class="caption-content">

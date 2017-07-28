@@ -156,41 +156,36 @@
 	background: rgba(255,255,255,0.8);
 }
 
-.bg-img-1 {
+.bg-img-index {
+    background-image: url(../img/slider/bg10.jpg);
+}
+.bg-img-main {
 	background-image: url(../img/slider/bg5.jpg);
 	transform: translateY(10%)
 }
-.bg-img-2 {
-	background-image: url(../img/slider/residencial.jpg);
-}
-.bg-img-3 {
-	background-image: url(../img/bg/working.jpg);
-}
-.bg-img-4 {
-	background-image: url(../img/slider/led_efficient.jpg);
-}
-.bg-img-5 {
-	background-image: url(../img/slider/bg5.jpg);
-}
-.bg-img-6 {
-	background-image: url(../img/slider/bg6.jpg);
-}
-
-.bg-img-7 {
+.bg-img-contacto {
 	background-image: url(../img/slider/bg7.jpg);
 }
-
-.bg-img-8 {
+.bg-img-efic {
+	background-image: url(../img/slider/led_efficient.jpg);
+}
+.bg-img-energ {
+    background-image: url(../img/slider/termotanque.jpg);    
+}
+.bg-img-ambient {
+	background-image: url(../img/slider/enviro.jpg);
+}
+.bg-img-panel {
+	background-image: url(../img/slider/bg82.jpg);
+}
+.bg-img-termo {
+	background-image: url(../img/slider/termotanque.jpg);
+}
+.bg-img-led {
 	background-image: url(../img/slider/led-1.jpg);
 }
 
-.bg-img-9 {
-    background-image: url(../img/slider/bg82.jpg);    
-}
 
-.bg-img-10 {
-    background-image: url(../img/slider/bg10.jpg);
-}
 /* Animations for content elements */
 
 .sl-trans-elems .caption-content h2 {

@@ -86,7 +86,7 @@ include ('navbar.html');
 				
 					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="0" data-slice2-rotation="0" data-slice1-scale="1" data-slice2-scale="1">
 
-						<div class="bg-img bg-img-1"></div>  <!-- ver en slit-slider.css -->
+						<div class="bg-img bg-img-main"></div>  <!-- ver en slit-slider.css -->
 
 						<div class="slide-caption">
                             <div class="caption-content">
