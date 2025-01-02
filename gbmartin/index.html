@@ -6,20 +6,58 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  
   <!-- Language Selector -->
-  <!-- Clicking on these links will load home.php in the iframe with the chosen language -->
   <nav class="lang-selector">
-    <a href="home.php?lang=en" target="content-frame">English</a> |
-    <a href="home.php?lang=es" target="content-frame">Español</a>
+    <!-- The 'onclick' calls the setLanguage function in scripts.js -->
+    <a href="#" onclick="setLanguage('en')">English</a> |
+    <a href="#" onclick="setLanguage('es')">Español</a>
   </nav>
-  
-  <!-- Iframe to display the PHP content -->
-  <iframe 
-    name="content-frame" 
-    src="home.php?lang=en" 
-    style="width: 100%; height: 100vh; border: none;"
-  ></iframe>
-  
+
+  <!-- Introduction Section -->
+  <section class="introduction">
+    <h1 id="intro-title"></h1>
+    <p id="intro-paragraph"></p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2 id="services-title"></h2>
+    <ul>
+      <li id="service1"></li>
+      <li id="service2"></li>
+      <li id="service3"></li>
+    </ul>
+  </section>
+
+  <!-- Plans or Prices Section -->
+  <section class="plans">
+    <h2 id="plans-title"></h2>
+    <ul>
+      <li id="plan1"></li>
+      <li id="plan2"></li>
+      <li id="plan3"></li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2 id="contact-title"></h2>
+    <p id="contact-description"></p>
+    <form>
+      <label for="name" id="contact-name-label"></label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email" id="contact-email-label"></label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message" id="contact-message-label"></label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit" id="contact-send-button"></button>
+    </form>
+  </section>
+
+  <!-- Link to JavaScript File -->
+  <script src="scripts.js"></script>
 </body>
 </html>
