@@ -8,8 +8,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  padding: 20px;
   background-color: #f7f7f7;
+  padding: 20px;
 }
 
 /* Language Selector */
@@ -40,10 +40,10 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* Lists */
+/* Services & Plans List */
 section ul {
   list-style: circle;
-  margin-left: 20px;
+  margin-left: 1.5em;
 }
 
 /* Contact Form */
