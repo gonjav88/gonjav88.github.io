@@ -1,0 +1,82 @@
+/* Global Reset or Basic Settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+/* Language Selector */
+.lang-selector {
+  margin-bottom: 20px;
+}
+
+.lang-selector a {
+  text-decoration: none;
+  color: #0066cc;
+  margin: 0 10px;
+}
+
+.lang-selector a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+section h1, 
+section h2 {
+  margin-bottom: 10px;
+}
+
+/* Lists */
+section ul {
+  list-style: circle;
+  margin-left: 20px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #004c99;
+}
