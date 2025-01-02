@@ -1,4 +1,4 @@
-<?php
+<?php    
 // Include the translations array
 include('translations.php');
 
